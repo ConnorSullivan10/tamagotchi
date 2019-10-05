@@ -28,9 +28,9 @@ const playPrinter = () => {
 <progress id="fun" value="50" max="100"></progress>
 <br>
 <div id="playButtonWrapper">
-<h2 id="playHeader">Play</h2>
 <button id="superFun">Plank</button>
 <button id="slightlyFun">Dab</button>
+<h2 id="playHeader">Play</h2>
 </div>
  `;
   utilities.printToDom('play', domString);

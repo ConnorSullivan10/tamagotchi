@@ -3,7 +3,7 @@ import utilities from '../helpers/utilities';
 
 const increaseFullLength = () => {
   let currentLength = document.getElementById('full').value;
-  if (currentLength < 90) {
+  if (currentLength < 90.1) {
     currentLength += 10;
     document.getElementById('full').value = currentLength;
   } else if ((currentLength > 90 && currentLength < 100)) {
