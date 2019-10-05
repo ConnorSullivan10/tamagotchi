@@ -1,6 +1,31 @@
-#eat { background-color: pink; }
+#eat { 
+  background-color: pink;
+}
 
-#myProgress {
-    width: 100%;
+  #full {
     background-color: #ddd;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+    margin-top: -200px;
+    
+  }
+
+#buttonwrapper {
+  display: flex;
+}
+
+h2{
+  margin-top: -2px;
+  padding-right: .25em;
+}
+
+  #healthy {
+  width: 50px;
+  height: 25px;
+  }
+
+  #unhealthy {
+    width: 50px;
+    height: 25px;
   }
