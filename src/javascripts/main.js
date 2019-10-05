@@ -7,7 +7,7 @@ import sleep from './components/sleep';
 const init = () => {
   eat.eatPrinter();
   fight.fightLog();
-  play.playLog();
+  play.playPrinter();
   sleep.sleepLog();
 };
 init();
