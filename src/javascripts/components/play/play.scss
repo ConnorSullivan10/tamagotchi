@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 #play { background-color: blue; }
   
 #fun {
@@ -5,26 +7,21 @@
       width: 100%;
       border-radius: 50px;
       margin-top: -200px;
-      
-    }
+      box-shadow: $box-shadow;
+}
   
 #playButtonWrapper {
     display: flex;
     margin-right: 5px;
     margin-left: auto;
+
+  #playHeader{
+      margin-top: -2px;
+      padding-left: .25em;
   }
-  
-#playHeader{
-    margin-top: -2px;
-    padding-left: .25em;
-  }
-  
-#superFun {
-    width: 50px;
-    height: 25px;
-    }
-  
-#slightlyFun {
+    
+  button {
       width: 50px;
       height: 25px;
-    }
+  }
+}
