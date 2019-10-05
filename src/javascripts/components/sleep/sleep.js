@@ -1,5 +1,5 @@
-import '../../styles/sleep.scss';
-import utilities from '../helpers/utilities';
+import './sleep.scss';
+import utilities from '../../helpers/utilities';
 
 const catNap = () => {
   let currentLength = document.getElementById('energy').value;
@@ -8,7 +8,7 @@ const catNap = () => {
     document.getElementById('energy').value = currentLength;
   } else if ((currentLength > 50 && currentLength < 100)) {
     currentLength = 100;
-    document.getElementById('energy').value = 100;
+    document.getElementById('energy').value = currentLength;
   }
 };
 

@@ -1,5 +1,5 @@
-import '../../styles/eat.scss';
-import utilities from '../helpers/utilities';
+import './eat.scss';
+import utilities from '../../helpers/utilities';
 
 const increaseFullLength = () => {
   let currentLength = document.getElementById('full').value;
@@ -8,7 +8,7 @@ const increaseFullLength = () => {
     document.getElementById('full').value = currentLength;
   } else if ((currentLength > 90 && currentLength < 100)) {
     currentLength = 100;
-    document.getElementById('full').value = 100;
+    document.getElementById('full').value = currentLength;
   }
 };
 

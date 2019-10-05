@@ -1,5 +1,5 @@
-import '../../styles/fight.scss';
-import utilities from '../helpers/utilities';
+import './fight.scss';
+import utilities from '../../helpers/utilities';
 
 const increaseFightStrength = () => {
   let currentLength = document.getElementById('strength').value;
@@ -8,7 +8,7 @@ const increaseFightStrength = () => {
     document.getElementById('strength').value = currentLength;
   } else if ((currentLength > 99 && currentLength < 100)) {
     currentLength = 100;
-    document.getElementById('strength').value = 100;
+    document.getElementById('strength').value = currentLength;
   }
 };
 

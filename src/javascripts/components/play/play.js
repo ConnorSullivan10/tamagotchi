@@ -1,5 +1,5 @@
-import '../../styles/play.scss';
-import utilities from '../helpers/utilities';
+import './play.scss';
+import utilities from '../../helpers/utilities';
 
 const increaseFunLengthFitty = () => {
   let currentFunLength = document.getElementById('fun').value;
@@ -8,7 +8,7 @@ const increaseFunLengthFitty = () => {
     document.getElementById('fun').value = currentFunLength;
   } else if ((currentFunLength > 50 && currentFunLength < 100)) {
     currentFunLength = 100;
-    document.getElementById('fun').value = 100;
+    document.getElementById('fun').value = currentFunLength;
   }
 };
 
@@ -19,7 +19,7 @@ const increaseFunLengthToo = () => {
     document.getElementById('fun').value = currentFunLength;
   } else if (currentFunLength > 97 && currentFunLength < 100) {
     currentFunLength = 100;
-    document.getElementById('fun').value = 100;
+    document.getElementById('fun').value = currentFunLength;
   }
 };
 
@@ -28,8 +28,8 @@ const playPrinter = () => {
 <progress id="fun" value="50" max="100"></progress>
 <br>
 <div id="playButtonWrapper">
-<button id="superFun">Plank</button>
-<button id="slightlyFun">Dab</button>
+<button id="superFun">Dab</button>
+<button id="slightlyFun">Plank</button>
 <h2 id="playHeader">Play</h2>
 </div>
  `;
