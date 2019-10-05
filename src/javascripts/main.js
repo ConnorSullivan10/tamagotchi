@@ -8,6 +8,6 @@ const init = () => {
   eat.eatPrinter();
   fight.fightPrinter();
   play.playPrinter();
-  sleep.sleepLog();
+  sleep.sleepPrinter();
 };
 init();
