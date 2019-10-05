@@ -1,1 +1,33 @@
 #sleep { background-color: purple; }
+
+#energy {
+    background-color: #ddd;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: -200px;
+  }
+
+#sleepButtonWrapper {
+    display: flex;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+#sleepHeader{
+  margin-left: 5px;
+  margin-bottom: -2px;
+}
+
+#lightSleep {
+  width: 50px;
+  height: 25px;
+  margin-bottom: -2px;
+  margin-top: auto;
+  }
+
+#heavySleep {
+    width: 50px;
+    height: 25px;
+    margin-bottom: -2px;
+    margin-top: auto;
+  }

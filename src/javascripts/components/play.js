@@ -14,7 +14,7 @@ const increaseFunLengthFitty = () => {
 
 const increaseFunLengthToo = () => {
   let currentFunLength = document.getElementById('fun').value;
-  if (currentFunLength < 98) {
+  if (currentFunLength < 98.1) {
     currentFunLength += 2;
     document.getElementById('fun').value = currentFunLength;
   } else if (currentFunLength > 97 && currentFunLength < 100) {
