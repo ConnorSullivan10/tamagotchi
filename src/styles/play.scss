@@ -1,1 +1,31 @@
 #play { background-color: blue; }
+  
+#fun {
+      background-color: #ddd;
+      width: 100%;
+      border-radius: 50px;
+      position: relative;
+      margin-top: -200px;
+      
+    }
+  
+#playButtonWrapper {
+    display: flex;
+    margin-right: 5px;
+    margin-left: auto;
+  }
+  
+#playHeader{
+    margin-top: -2px;
+    padding-right: .25em;
+  }
+  
+#superFun {
+    width: 50px;
+    height: 25px;
+    }
+  
+#slightlyFun {
+      width: 50px;
+      height: 25px;
+    }

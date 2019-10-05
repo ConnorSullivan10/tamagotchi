@@ -28,8 +28,8 @@ const eatPrinter = () => {
 <progress id="full" value="100" max="100"></progress>
 <br>
 <div id="buttonwrapper">
-<h2>Eat</h2>
-<button id="healthy">Salad</button>
+<h2 id="eatHeader">Eat</h2>
+<button id="healthy">Kale</button>
 <button id="unhealthy">Pie</button>
 </div>
  `;

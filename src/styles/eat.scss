@@ -2,11 +2,10 @@
   background-color: pink;
 }
 
-  #full {
+#full {
     background-color: #ddd;
     width: 100%;
     border-radius: 50px;
-    position: relative;
     margin-top: -200px;
     
   }
@@ -15,17 +14,18 @@
   display: flex;
 }
 
-h2{
+#eatHeader{
+  margin-left: 5px;
   margin-top: -2px;
   padding-right: .25em;
 }
 
-  #healthy {
+#healthy {
   width: 50px;
   height: 25px;
   }
 
-  #unhealthy {
+#unhealthy {
     width: 50px;
     height: 25px;
   }
