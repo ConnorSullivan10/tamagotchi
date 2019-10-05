@@ -1,1 +1,32 @@
 #fight { background-color: rgb(103, 190, 103); }
+
+#strength {
+    background-color: #ddd;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: -200px;
+  }
+
+#fightButtonWrapper {
+  display: flex;
+}
+
+#fightHeader{
+  margin-left: 5px;
+  margin-bottom: -2px;
+  padding-right: .25em;
+}
+
+#run {
+  width: 50px;
+  height: 25px;
+  margin-bottom: -2px;
+  margin-top: auto;
+  }
+
+#violence {
+    width: 50px;
+    height: 25px;
+    margin-bottom: -2px;
+    margin-top: auto;
+  }
