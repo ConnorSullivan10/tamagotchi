@@ -4,7 +4,7 @@
 Use this application to play with and update the status of the Tamagotchi displayed within the application. By clicking on the buttons in the Eat, Play, Fight & Sleep categories, you can change the levels of the Tamagotchi's bar for each respective category. Click the buttons for yourself to see how it affects the Tamagotchi!
 
 ## Screenshots
-![Tamagotchi Preview]()
+![Tamagotchi Preview](https://raw.githubusercontent.com/ConnorSullivan10/tamagotchi/master/screenshots/baseTamagotchiScreenshot.png)
 
 ## How to run
 * Clone down this project
